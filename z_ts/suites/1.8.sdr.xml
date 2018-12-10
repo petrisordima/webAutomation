@@ -1,0 +1,7 @@
+<suite name="SDR" preserve-order="true">
+    <test name="SDR" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.sallesDeReunion.VerunitbvSalleCreation"></class>
+        </classes>
+    </test>
+</suite>

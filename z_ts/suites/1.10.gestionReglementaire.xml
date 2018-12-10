@@ -1,0 +1,7 @@
+<suite name="Gestion reglementaire" preserve-order="true">
+    <test name="Gestion reglementaire" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.isioControle.VerunitbvPdCtrlCreation"></class>
+        </classes>
+    </test>
+</suite>

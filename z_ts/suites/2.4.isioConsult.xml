@@ -1,0 +1,8 @@
+<suite name="IsioConsult" preserve-order="true">
+    <test name="IsioConsult" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isioconsult.CheckJspIsioConsult"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isioconsult.CreateConsult"></class>
+        </classes>
+    </test>
+</suite>

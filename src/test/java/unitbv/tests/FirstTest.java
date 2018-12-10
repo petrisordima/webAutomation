@@ -1,4 +1,4 @@
-package ro.unitbv;
+package unitbv.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,26 +19,29 @@ public class FirstTest {
 
         System.setProperty("webdriver.gecko.driver", "resources\\geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("https://google.ro");
+        driver.get("https://elearning.unitbv.ro/login/index.php");
 
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
 
-        driver.findElement(By.name("q")).sendKeys("anhken");
-        Robot robot = null;
-        try {
-            robot = new Robot();
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        driver.findElement(By.id("username")).sendKeys("petrisor.dima@student.unitbv.ro");
+        driver.findElement(By.id("password")).sendKeys("VrTzBsDJDwFz54Q");
+        driver.findElement(By.id("loginbtn")).click();
 
-        Thread.sleep(2000);
+//        Robot robot = null;
+//        try {
+//            robot = new Robot();
+//        } catch (AWTException e) {
+//            e.printStackTrace();
+//        }
+//        robot.keyPress(KeyEvent.VK_ENTER);
+//        robot.keyRelease(KeyEvent.VK_ENTER);
 
-        driver.quit();
+        Thread.sleep(8000);
+
+
         driver.close();
 
     }

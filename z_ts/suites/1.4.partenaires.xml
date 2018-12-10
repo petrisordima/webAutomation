@@ -1,0 +1,7 @@
+<suite name="Partenaires" preserve-order="true">
+    <test name="Partenaires" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.partenaires.VerunitbvPartennaireCreation"></class>
+        </classes>
+    </test>
+</suite>

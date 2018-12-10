@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="" />
+    <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RunJenkins.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SaxonLiaison.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/saxon-8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/testng-results.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckUnitBV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/DemandeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/ExcelLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/InitWebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/ModuleUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/TestOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/TestParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/VerifyPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitbv/util/VerifyUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/DummySuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/Exemples/IFYSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/Exemples/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/Exemples/ify.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/SSO_SAML.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/TestData.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/pj.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/0.__ify_allSuites.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/0.__ify_allSuites_div.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.1.1.liensSite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.1.sites.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.10.gestionReglementaire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.11.administration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.2.societees.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.3.contrats.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.4.partenaires.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.5.obligations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.6.equipements.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.7.utilities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.8.sdr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/1.9.mouvements.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.1.1.isioDesk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.1.2.callCenter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.2.isioDevis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.3.isioOrder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.4.isioConsult.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.5.isioSdr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.6.isioCmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.7.isioMove.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.8.isioAccueil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/2.9.accueil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/suites/3.0.checkJsp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_ts/ts.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/unitbv/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ro/unitbv/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAutomation.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAutomation.iws" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iws" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,52 +69,96 @@
     <session id="1567403844">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="55" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="182" />
+          <entry key="XML" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="ipr" value="1" />
+          <entry key="iws" value="1" />
+          <entry key="java" value="7" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="HTML" value="5" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="IDEA_PROJECT" value="1" />
+          <entry key="IDEA_WORKSPACE" value="1" />
+          <entry key="JAVA" value="63" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/InitWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="986">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ro/unitbv/FirstTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/DemandeNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/ExcelLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/VerifyPages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/TestOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9925">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +166,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/VerifyUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/TestParams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -85,12 +211,44 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ify</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>unitbv</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/unitbv/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/unitbv/SecondTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/unitbv/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/pentalog/ts/util/InitWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/ts/util/ModuleUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/ts/career/myts/MyTaletsoft.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/ts/career/myts/tests/CheckUnitBV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/ts/util/VerifyPages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/CheckUnitBV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/fwk/util/InitWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/TestOperations.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/ModuleUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/z_ts/DummySuite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckUnitBV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/InitWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/VerifyUrl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/VerifyPages.java" />
+        <option value="$PROJECT_DIR$/DummySuite.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/unitbv/util/TestOperations.java" />
       </list>
     </option>
   </component>
@@ -107,17 +265,35 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="300" />
-    <option name="y" value="70" />
-    <option name="width" value="1455" />
+    <option name="x" value="190" />
+    <option name="y" value="250" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,44 +306,41 @@
               <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543345202321" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544474993963" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.45734596" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Proiect Licenta" />
+      <recent name="D:\Facultate\Proiect Licenta\resources" />
+      <recent name="D:\Facultate\Proiect Licenta\lib" />
+      <recent name="D:\Facultate\Proiect Licenta\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Proiect Licenta\src\main\java" />
+      <recent name="D:\Facultate\Proiect Licenta\src\main" />
+      <recent name="D:\Facultate\Proiect Licenta\src" />
       <recent name="D:\Facultate\Proiect Licenta\src\test" />
+      <recent name="D:\Facultate\Proiect Licenta\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,25 +355,90 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Facultate/Proiect Licenta/DummySuite.xml">
+    <configuration name="CheckUnitBV" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.unitbv.*" />
+          <option name="PATTERN" value="unitbv.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ro.unitbv" />
-      <option name="MAIN_CLASS_NAME" value="ro.unitbv.FirstTest" />
+      <option name="PACKAGE_NAME" value="unitbv.ts.career.myts.tests" />
+      <option name="MAIN_CLASS_NAME" value="unitbv.tests.CheckUnitBV" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/Facultate/Proiect Licenta/DummySuite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/DummySuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Facultate/Proiect Licenta/z_ts/DummySuite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/z_ts/DummySuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitbv.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.unitbv" />
+      <option name="MAIN_CLASS_NAME" value="unitbv.tests.FirstTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.elTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitbv.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.unitbv" />
+      <option name="MAIN_CLASS_NAME" value="unitbv.tests.FirstTest" />
+      <option name="METHOD_NAME" value="elTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.FirstTest" />
+      <item itemvalue="TestNG.FirstTest.elTest" />
+      <item itemvalue="TestNG.CheckUnitBV" />
+      <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/z_ts/DummySuite.xml" />
+      <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/DummySuite.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/DummySuite.xml" />
+        <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/z_ts/DummySuite.xml" />
+        <item itemvalue="TestNG.CheckUnitBV" />
+        <item itemvalue="TestNG.FirstTest.elTest" />
         <item itemvalue="TestNG.FirstTest" />
       </list>
     </recent_temporary>
@@ -216,23 +454,59 @@
       <option name="presentableId" value="Default" />
       <updated>1543341437912</updated>
       <workItem from="1543341442741" duration="253000" />
-      <workItem from="1543345121590" duration="75000" />
+      <workItem from="1543345121590" duration="1167000" />
+      <workItem from="1543387974453" duration="1029000" />
+      <workItem from="1543389115477" duration="2361000" />
+      <workItem from="1543439235483" duration="651000" />
+      <workItem from="1543668040464" duration="628000" />
+      <workItem from="1543685025774" duration="692000" />
+      <workItem from="1543959071205" duration="5916000" />
+      <workItem from="1544353869365" duration="889000" />
+      <workItem from="1544354850689" duration="97000" />
+      <workItem from="1544355218828" duration="1202000" />
+      <workItem from="1544472070194" duration="2558000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.11.27 at 20h 01m 15s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_elTest - 2018.11.28 at 23h 07m 44s.xml">
+      <configuration name="FirstTest.elTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_elTest - 2018.12.04 at 23h 47m 19s.xml">
+      <configuration name="FirstTest.elTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.04 at 23h 47m 39s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.04 at 23h 49m 14s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.05 at 00h 01m 10s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.05 at 00h 02m 33s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.05 at 22h 43m 31s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUnitBV - 2018.12.05 at 22h 45m 58s.xml">
+      <configuration name="CheckUnitBV" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Facultate_Proiect_Licenta_z_ts_DummySuite_xml - 2018.12.05 at 22h 48m 46s.xml">
+      <configuration name="D:/Facultate/Proiect Licenta/z_ts/DummySuite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Facultate_Proiect_Licenta_DummySuite_xml - 2018.12.10 at 22h 44m 04s.xml">
+      <configuration name="D:/Facultate/Proiect Licenta/DummySuite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328000" />
+    <option name="totallyTimeSpent" value="17443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28120807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,19 +514,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.36363637" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.26713288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.22483222" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -260,7 +534,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.14697987" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,28 +543,205 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="setClassPath" isVisible="false" />
+        <filter targetName="loadTestNG" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="cleanScreenshots" isVisible="false" />
+        <filter targetName="init" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="run" isVisible="false" />
+        <filter targetName="makexsltreports" isVisible="false" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/webAutomation.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webAutomation.ipr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webAutomation.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/unitbv/SecondTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/testng-results.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/ts/career/myts/MyTaletsoft.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/ts/career/myts/tests/CreateGroupTrainingRequirement.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/ts/career/training/WebTraining.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/ts/career/WebCareer.java" />
+    <entry file="file://$PROJECT_DIR$/z_ts/ts.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/testng-results.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/unitbv/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/z_ts/Exemples/IFYSuite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/ModuleUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testreport/report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunJenkins.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testreport/archive/archive - 2018_12_09_13_49_17/Suite unitbv_1.1 Dummy test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="916">
+          <caret line="203" column="31" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckUnitBV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_ts/DummySuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DummySuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/TestOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9925">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/TestParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/VerifyPages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/VerifyUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/DemandeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/ExcelLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/util/InitWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -308,6 +759,67 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45734596" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45734596" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45734596" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>webAutomation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45734596" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>Python 3.7 (PetShop)</last-edited>
@@ -315,6 +827,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45734596" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,0 +1,130 @@
+<suite name="Suite unitbv" preserve-order="true">
+
+    <!--<test name="1.1. Sites"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.site.VerunitbvSiteStructureCreation"></class>
+        </classes>
+    </test>	-->
+
+
+    <!--<test name="1.2 Societes"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.societe.VerunitbvSocieteCreation"></class>
+        </classes>
+    </test>
+
+    <test name="1.3 Contrats"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.contrats.CheckJspContrats"></class>
+        </classes>
+    </test>
+
+    <test name="1.4 Partenaires"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.partenaires.VerunitbvPartennaireCreation"></class>
+        </classes>
+
+    </test>
+
+    <test name="1.5 Utilities"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.utilities.VerunitbvTypePdcCreation"></class>
+            <class name="fr.pentaloglog.unitbv.isioref.utilities.VerunitbvPdcCreationOnSite"></class>
+        </classes>
+    </test>
+
+    <test name="1.6 SDR"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.sallesDeReunion.VerunitbvSalleCreation"></class>
+        </classes>
+    </test>
+
+    <test name="1.7 Mouvements"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.mouvements.VerunitbvCatMouvementCreation"></class>
+        </classes>
+    </test>
+
+    <test name="2.1.1 IsioDesk"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiodesk.CreateDemandeAndContinueWorkflow"></class>
+        </classes>
+    </test>
+
+    <test name="2.1.2 CallCenter"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.callcenter.CreateDemandeAndContinueWorkflow"></class>
+        </classes>
+    </test>
+
+    <test name="2.2 IsioDevis" preserve-order="true" >
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiodevis.CheckJspIsioDevis"></class>
+
+        </classes>
+    </test>
+
+    <test name="2.3 IsioOrder" preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isioorder.CreateOTDevis"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isioorder.CreateOTMontant"></class>
+        </classes>
+    </test>
+
+    <test name="2.4  IsioConsult" preserve-order="true" >
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isioconsult.CheckJspIsioConsult"></class>
+        </classes>
+    </test>
+
+
+    <test name="2.5 IsioSdr"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiosdr.CreateReservation"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiosdr.CreateReservationPlanning"></class>
+        </classes>
+    </test>
+    -->
+
+    <test name="2.6 IsioCmd" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isiocmd.CheckJspIsioCmd"></class>
+        </classes>
+    </test>
+
+    <!--
+    <test name="2.7 IsioMove" preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiomove.CreateDemandeArrive"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiomove.CreateDemandeDepart"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiomove.CreateDemandeTransfert"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiomove.CreateDemandeMiseAJour"></class>
+        </classes>
+    </test>
+
+    <test name="2.8 IsioAccueil" preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.isioaccueil.CheckJspIsioAccueil"></class>
+        </classes>
+    </test>
+
+    <test name="2.9 Accueil"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioservice.accueil.CheckJspAccueil"></class>
+        </classes>
+    </test>
+
+    <test name="3.0 JSP Check"  preserve-order="true">
+        <classes>
+            <class name="fr.pentaloglog.unitbv.isioref.site.CheckJspSite"></class>
+            <class name="fr.pentaloglog.unitbv.isioref.societe.CheckJspSociete"></class>
+            <class name="fr.pentaloglog.unitbv.isioref.partenaires.CheckJspPartenaires"></class>
+            <class name="fr.pentaloglog.unitbv.isioref.administrationation.CheckJspTechnique"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiodesk.CheckJspIsioDesk"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isioorder.CheckJspIsioOrder"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiosdr.CheckJspIsioSdr"></class>
+            <class name="fr.pentaloglog.unitbv.isioservice.isiomove.CheckJspIsioMove"></class>
+        </classes>
+    </test>-->
+
+</suite>

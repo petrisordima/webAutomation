@@ -1,0 +1,8 @@
+<suite name="IsioOrder" preserve-order="true">
+    <test name="IsioOrder" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isioorder.CreateOTDevis"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isioorder.CreateOTMontant"></class>
+        </classes>
+    </test>
+</suite>

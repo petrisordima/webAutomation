@@ -1,0 +1,10 @@
+<suite name="IsioMove" preserve-order="true">
+    <test name="IsioMove" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isiomove.CreateDemandeArrive"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiomove.CreateDemandeDepart"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiomove.CreateDemandeTransfert"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiomove.CreateDemandeMiseAJour"></class>
+        </classes>
+    </test>
+</suite>

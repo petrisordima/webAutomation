@@ -1,0 +1,8 @@
+<suite name="IsioSdr" preserve-order="true">
+    <test name="IsioSdr" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isiosdr.CreateReservation"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiosdr.CreateReservationPlanning"></class>
+        </classes>
+    </test>
+</suite>

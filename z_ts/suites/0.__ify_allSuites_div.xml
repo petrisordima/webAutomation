@@ -1,0 +1,27 @@
+<suite name="IsiForYou">
+    <suite-files>
+        <suite-file path="1.1.sites.xml"/>
+        <suite-file path="1.1.1.liensSite.xml"/>
+        <suite-file path="1.2.societees.xml"/>
+        <suite-file path="1.3.contrats.xml"/>
+        <suite-file path="1.4.partenaires.xml"/>
+        <suite-file path="1.5.obligations.xml"/>
+        <suite-file path="1.6.equipements.xml"/>
+        <suite-file path="1.7.utilities.xml"/>
+        <suite-file path="1.8.sdr.xml"/>
+        <suite-file path="1.9.mouvements.xml"/>
+        <suite-file path="1.10.gestionReglementaire.xml"/>
+        <suite-file path="1.11.administration.xml"/>
+        <suite-file path="2.1.1.isioDesk.xml"/>
+        <suite-file path="2.1.2.callCenter.xml"/>
+        <suite-file path="2.2.isioDevis.xml"/>
+        <suite-file path="2.3.isioOrder.xml"/>
+        <suite-file path="2.4.isioConsult.xml"/>
+        <suite-file path="2.5.isioSdr.xml"/>
+        <suite-file path="2.6.isioCmd.xml"/>
+        <suite-file path="2.7.isioMove.xml"/>
+        <suite-file path="2.8.isioAccueil.xml"/>
+        <suite-file path="2.9.accueil.xml"/>
+        <suite-file path="3.0.checkJsp.xml"/>
+    </suite-files>
+</suite>

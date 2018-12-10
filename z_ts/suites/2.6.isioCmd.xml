@@ -1,0 +1,7 @@
+<suite name="IsioCmd" preserve-order="true">
+    <test name="IsioCmd" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isiocmd.CheckJspIsioCmd"></class>
+        </classes>
+    </test>
+</suite>

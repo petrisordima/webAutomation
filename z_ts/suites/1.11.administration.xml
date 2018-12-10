@@ -1,0 +1,7 @@
+<suite name="Utilities" preserve-order="true">
+    <test name="1.11 Administration" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.technique.VerunitbvRoleCreation"></class>
+        </classes>
+    </test>
+</suite>

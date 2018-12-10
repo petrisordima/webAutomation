@@ -1,0 +1,16 @@
+<suite name="Check JSP" preserve-order="true">
+    <test name="JSP Check" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.site.CheckJspSite"></class>
+            <class name="fr.pentalog.unitbv.isioref.contrats.CheckJspContrats"></class>
+            <class name="fr.pentalog.unitbv.isioref.societe.CheckJspSociete"></class>
+            <class name="fr.pentalog.unitbv.isioref.partenaires.CheckJspPartenaires"></class>
+            <class name="fr.pentalog.unitbv.isioref.technique.CheckJspTechnique"></class>
+            <class name="fr.pentalog.unitbv.isioref.paramIsioService.CheckjspParamIsioService"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiodesk.CheckJspIsioDesk"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isioorder.CheckJspIsioOrder"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiosdr.CheckJspIsioSdr"></class>
+            <class name="fr.pentalog.unitbv.isioservice.isiomove.CheckJspIsioMove"></class>
+        </classes>
+    </test>
+</suite>

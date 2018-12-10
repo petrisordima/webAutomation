@@ -1,0 +1,9 @@
+<suite name="Contrats" preserve-order="true">
+    <test name="Contrats" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.contrats.VerunitbvContratBailCreation"></class>
+            <class name="fr.pentalog.unitbv.isioref.contrats.VerunitbvActeProprieteCreation"></class>
+            <class name="fr.pentalog.unitbv.isioref.contrats.VerunitbvContratPrestationCreation"></class>
+        </classes>
+    </test>
+</suite>

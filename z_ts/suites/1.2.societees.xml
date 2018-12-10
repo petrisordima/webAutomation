@@ -1,0 +1,7 @@
+<suite name="Societes" preserve-order="true">
+    <test name="Societes" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.societe.VerunitbvSocieteCreation"></class>
+        </classes>
+    </test>
+</suite>

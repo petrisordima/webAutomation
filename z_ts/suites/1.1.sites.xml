@@ -1,0 +1,7 @@
+<suite name="Sites" preserve-order="true">
+    <test name="Sites" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.site.VerunitbvSiteStructureCreation"></class>
+        </classes>
+    </test>
+</suite>

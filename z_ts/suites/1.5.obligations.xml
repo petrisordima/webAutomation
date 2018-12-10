@@ -1,0 +1,7 @@
+<suite name="Obligations" preserve-order="true">
+    <test name="Obligations" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.obligations.VerunitbvObligationCreation"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+<suite name="IsioAccueil" preserve-order="true">
+    <test name="IsioAccueil" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isioaccueil.CheckJspIsioAccueil"></class>
+        </classes>
+    </test>
+</suite>

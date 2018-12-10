@@ -1,0 +1,9 @@
+<suite name="Equipements" preserve-order="true">
+    <test name="Equipements" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.equipements.VerunitbvEqpTypeCreation"></class>
+            <class name="fr.pentalog.unitbv.isioref.equipements.VerunitbvEqpSurSiteCreation"></class>
+            <class name="fr.pentalog.unitbv.isioref.equipements.VerunitbvRechercheEquipements"></class>
+        </classes>
+    </test>
+</suite>

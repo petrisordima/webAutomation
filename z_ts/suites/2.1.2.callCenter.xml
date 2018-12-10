@@ -1,0 +1,7 @@
+<suite name="CallCenter" preserve-order="true">
+    <test name="CallCenter" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.callcenter.CreateDemandeAndContinueWorkflow"></class>
+        </classes>
+    </test>
+</suite>

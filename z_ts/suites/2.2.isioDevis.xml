@@ -1,0 +1,7 @@
+<suite name="IsioDevis" preserve-order="true">
+    <test name="IsioDevis" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioservice.isiodevis.CheckJspIsioDevis"></class>
+        </classes>
+    </test>
+</suite>

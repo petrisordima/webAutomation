@@ -1,0 +1,100 @@
+
+
+<project name="Automation" default="mail" basedir="." >
+	<!-- Defining property -->
+	<property name="report.dir" value="c:\\Program Files (x86)\\Apache Software Foundation\\Apache2.2\\htdocs\\testreport" />
+	<property name="build.dir" value="${basedir}/bin"/>
+	<property name="ScrShot.dir" value="${report.dir}/screenShots" />
+	<property name="jar.dir" value="${basedir}/lib" />
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="ng.result.dir" value="test-output" />
+	<property name="test.suite.dir" value="${basedir}/z_unitbv/suites" />
+
+	<tstamp>
+		<format property="TODAY" pattern="YYYY-dd-MM_HH-mm-ss" locale="en" />
+	</tstamp>
+	<!-- Setting Classpath for jar files -->
+	<target name="setClassPath">
+		<path id="classpath_jars">
+			<pathelement path="${basedir}/" />
+			<fileset dir="${jar.dir}">
+				<include name="*.jar" />
+			</fileset>
+		</path>
+		<pathconvert pathsep=":"
+		             property="test.classpath"
+		             refid="classpath_jars" />
+	</target>
+
+	<!-- Loading Testng -->
+	<target name="loadTestNG" depends="setClassPath">
+		<taskdef resource="testngtasks" classpath="${test.classpath}" />
+	</target>
+
+	<!-- Deleting directories -->
+	<target name="clean" depends="loadTestNG">
+		<delete dir="${build.dir}" />
+		<mkdir dir="${build.dir}" />
+		<delete dir="${ScrShot.dir}" />
+		<mkdir dir="${ScrShot.dir}" />
+		<delete dir="${ng.result.dir}" />
+		<mkdir dir="${ng.result.dir}" />
+	</target>
+
+	<!-- Compiling java files -->
+	<target name="compile"
+	        depends="clean">
+		<javac destdir="${build.dir}"
+		       srcdir="${src.dir}"
+			   debug="true"
+		       includeantruntime="false"
+		       classpath="${test.classpath}" />
+	</target>
+
+	<target name="run" depends="compile">
+		<testng classpath="${test.classpath}:${build.dir}">
+			<xmlfileset dir="${test.suite.dir}" includes="${test.suite.name}" />
+		</testng>
+	</target>
+
+	<!-- adding XSLT report target to produce XSLT report -->
+	<target name="makexsltreports" depends="run">
+		<move todir="${report.dir}/archive/archive - ${TODAY}"
+		      includeEmptyDirs="yes"
+		      verbose="true">
+			<fileset dir="${report.dir}/report">
+				<include name="**/*" />
+			</fileset>
+		</move>
+	<!--<delete dir="${report.dir}/report" />-->
+		<mkdir dir="${report.dir}/report" />
+		<xslt in="${ng.result.dir}/testng-results.xml"
+		      style="src/resources/testng-results.xsl"
+		      out="${report.dir}/report/index.html"
+		      classpathref="classpath_jars"
+		      processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${report.dir}/report" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true" />
+			<param expression="true" name="testNgXslt.sortTestCaseLinks" />
+			<param expression="FAIL,SKIP,PASS,CONF,BY_CLASS"
+			       name="testNgXslt.testDetailsFilter" />
+		</xslt>
+	</target>
+	<loadfile property="html_text" srcFile="${report.dir}/html/message.html" />
+	<target name="mail" depends="makexsltreports">
+		<echo message="Sending 	Email" />
+		<mail mailhost="smtp.pentalog.fr"
+		      mailport="25"
+		      user="testprojet@pentalog.fr"
+		      password="aBvJK2JQ"
+		      subject="Test report - ${TODAY}">
+			<from address="test.team@projet-isiom.fr" />
+			<replyto address="pdima@pentalog.fr" />
+			<to address="pdima@pentalog.fr" />
+			<message mimetype="text/html">
+				${html_text}
+				</message>
+		</mail>
+	</target>
+</project>
+

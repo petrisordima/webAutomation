@@ -1,0 +1,8 @@
+<suite name="Mouvements" preserve-order="true">
+    <test name="Mouvements" preserve-order="true">
+        <classes>
+            <class name="fr.pentalog.unitbv.isioref.mouvements.VerunitbvCatMouvementCreation"></class>
+            <class name="fr.pentalog.unitbv.isioref.mouvements.VerunitbvWkfValidationCreation"></class>
+        </classes>
+    </test>
+</suite>
