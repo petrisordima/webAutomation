@@ -19,24 +19,6 @@ public class TestOperations extends InitWebDriver {
     private static final String ERREUR_TECHNIQUE = "errorLabelId";
     private static final String ERREUR_FAIL_MESSAGE = " [ERROR] -  Error message found on page ";
 
-    /**
-     * login method with implicit connection with the default user from
-     * unitbv.proprieties.
-     */
-
-    public static void loginDefault() {
-
-        Util.Log.info("login with user : " + TestParams.getUserMd5());
-        try {
-            driver.get(TestParams.getBaseUrl() + "/?encryptedAccessKey=" + TestParams.getUserMd5());
-            checkBrowserAlertAndAcceptIt();
-            wait(TestParams.getWait());
-
-        } catch (Throwable t) {
-            ModuleUtil.ScreenShot();
-            Assert.fail(Util.Log.error("Could not login"));
-        }
-    }
 
     /**
      * verfiers if the user is logged in. if not the defaut user in logged in
@@ -62,7 +44,7 @@ public class TestOperations extends InitWebDriver {
 
         Util.Log.info("login with user : " + username);
         try {
-        //login code
+            //login code
         } catch (Throwable t) {
             ModuleUtil.ScreenShot();
             Assert.fail(Util.Log.error("Could not login"));
@@ -75,7 +57,7 @@ public class TestOperations extends InitWebDriver {
      * @param xPath - element xPath
      */
 
-    public static boolean click(String xPath) {
+    public static void click(String xPath) {
 
         try {
             wait(TestParams.getWait());
@@ -83,11 +65,11 @@ public class TestOperations extends InitWebDriver {
             String elementText = element.getText();
             element.click();
             Util.Log.info("Click element : " + Util.formatNoAccent(elementText));
-            return true;
+
         } catch (Throwable T) {
             ModuleUtil.ScreenShot();
             Assert.fail(Util.Log.error("Element " + Util.formatNoAccent(xPath) + " not found on page "));
-            return false;
+
         }
 
     }
@@ -96,7 +78,7 @@ public class TestOperations extends InitWebDriver {
      * identifies an element by the provided @xPath and doubleClicks it.
      */
 
-    public static boolean doubleClick(String xPath) {
+    public static void doubleClick(String xPath) {
 
         Actions action = new Actions(driver);
 
@@ -106,11 +88,11 @@ public class TestOperations extends InitWebDriver {
             WebElement element = driver.findElement(By.xpath(xPath));
             action.doubleClick(element).perform();
             Util.Log.info("DoubleClicked element : " + Util.formatNoAccent(xPath));
-            return true;
+
         } catch (Throwable T) {
             ModuleUtil.ScreenShot();
             Assert.fail(Util.Log.error("Element " + Util.formatNoAccent(xPath) + " not found on page "));
-            return false;
+
         }
 
     }

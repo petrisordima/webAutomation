@@ -13,7 +13,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The main mother fucker. Where all test operations are initialized and
+ * The main. Where all test operations are initialized and
  * prepares the test execution, loading its parameters
  *
  * @author pdima
@@ -59,7 +59,7 @@ public class InitWebDriver {
         driver.manage().window().maximize();
 
         String mainWindow = driver.getWindowHandle();
-        TestOperations.goToPage(TestParams.getBaseUrl());
+        //TestOperations.goToPage(TestParams.getBaseUrl());
 
     }
 

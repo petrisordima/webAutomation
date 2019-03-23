@@ -13,9 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="webAutomation" target="1.5" />
+      <module name="webAutomation" target="7" />
     </bytecodeTargetLevel>
   </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
