@@ -5,17 +5,16 @@
 
 
     <property name="project.dir" value="${basedir}"/>
-    <property name="report.dir" value="${basedir}/testreport"/>
+    <property name="report.dir" value="D:/testreport"/>
     <property name="build.dir" value="${basedir}/bin"/>
-    <property name="ScrShot.dir" value="${basedir}/testreport\screenShots"/>
+    <property name="ScrShot.dir" value="${report.dir}/screenShots"/>
     <property name="jar.dir" value="${basedir}/lib"/>
     <property name="src.dir" value="${basedir}/src"/>
-    <property name="ng.result" value="${basedir}/test-output"/>
     <property name="test.input.folder" value="/"/>
     <property name="suite" value="DummySuite.xml"/>
     <property name="ng.result" value="${basedir}/test-output"/>
     <property name="browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
-    <property name="file" location="${basedir}/testreport/report/index.html"/>
+    <property name="file" location="${report.dir}/report/index.html"/>
 
     <tstamp>
         <format property="TODAY" pattern="yyyy_MM_dd_HH_mm_ss" locale="en"/>
@@ -123,6 +122,3 @@
     </target>
 
 </project>
-
-        <!--<attachments> <fileset
-                dir="dist"> <include name="**/*.zip"/> </fileset> </attachments> -->

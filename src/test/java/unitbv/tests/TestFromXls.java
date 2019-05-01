@@ -1,15 +1,11 @@
 package unitbv.tests;
 
-
-import unitbv.util.PerformTest;
-
-
-public class TestFromXls extends PerformTest {
+import framework.PerformTestFromXls;
 
 
+public class TestFromXls extends PerformTestFromXls {
     @Override
     public String sheetName() {
         return "testCase";
     }
-
 }

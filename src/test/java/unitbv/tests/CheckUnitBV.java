@@ -1,9 +1,9 @@
 package unitbv.tests;
 
 
-import unitbv.util.VerifyPages;
+import framework.VerifyPagesFromXls;
 
-public class CheckUnitBV extends VerifyPages {
+public class CheckUnitBV extends VerifyPagesFromXls {
 
 
     @Override
