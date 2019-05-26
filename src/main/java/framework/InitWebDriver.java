@@ -25,7 +25,6 @@ public class InitWebDriver {
 
     public static WebDriver driver;
 
-
     @BeforeSuite
     public static void openDriver() throws Exception {
 

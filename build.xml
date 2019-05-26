@@ -11,7 +11,7 @@
     <property name="jar.dir" value="${basedir}/lib"/>
     <property name="src.dir" value="${basedir}/src"/>
     <property name="test.input.folder" value="/"/>
-    <property name="suite" value="DummySuite.xml"/>
+    <property name="suite" value="TestSuite.xml"/>
     <property name="ng.result" value="${basedir}/test-output"/>
     <property name="browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
     <property name="file" location="${report.dir}/report/index.html"/>
@@ -110,6 +110,8 @@
 
         </xslt>
         <echo message="Report generated successfully... "/>
+
+        <!-- To be activated for publishing the report in a webserver location -->
         <!--  <scp
                port="23"
                todir="${report.publish.location}"

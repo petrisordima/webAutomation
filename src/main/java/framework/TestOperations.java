@@ -20,7 +20,6 @@ import java.util.Set;
  */
 public class TestOperations extends InitWebDriver {
 
-
     /**
      * login method with implicit connection. It requires an encoded username
      * Administration/ Administration administration.
@@ -176,7 +175,6 @@ public class TestOperations extends InitWebDriver {
         }
 
     }
-
 
     /**
      * identifies an element by His label and sends the text
@@ -462,10 +460,6 @@ public class TestOperations extends InitWebDriver {
         }
     }
 
-
-
-
-
     /**
      * verifies if a text matches a xpath.getText() used to verify if a certain
      * error message is displayed on page
@@ -476,7 +470,6 @@ public class TestOperations extends InitWebDriver {
         contains = string.toLowerCase().contains(text.toLowerCase());
         return contains;
     }
-
 
     /**
      * obvious :) - it pauses the execution for 1/2 seconds wait(2); = 1 second
@@ -490,7 +483,6 @@ public class TestOperations extends InitWebDriver {
             e.printStackTrace();
         }
     }
-
 
     /**
      * file uploader using the robot function
