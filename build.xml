@@ -95,6 +95,8 @@
         </move>
         <delete dir="${report.dir}/report"/>
         <mkdir dir="${report.dir}/report"/>
+
+        <echo message="Starting generation of xsl test report... "/>
         <xslt in="${ng.result}/testng-results.xml"
               style="resources/testng-results.xsl"
               out="${report.dir}/report/index.html"
@@ -105,7 +107,9 @@
             <param expression="true" name="testNgXslt.sortTestCaseLinks"/>
             <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS"
                    name="testNgXslt.testDetailsFilter"/>
+
         </xslt>
+        <echo message="Report generated successfully... "/>
         <!--  <scp
                port="23"
                todir="${report.publish.location}"
