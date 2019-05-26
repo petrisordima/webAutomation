@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="All libs">
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/TestOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/TestOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/VerifyPagesFromXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/VerifyPagesFromXls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/TestParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/TestParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/FirstTest.java" afterDir="false" />
+    <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/unitBV.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webAutomation.iws" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_ts/ts.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unitbv.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -165,6 +159,11 @@
               <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +176,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558862599910" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558862659256" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/HybridFramework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -370,7 +369,7 @@
       <workItem from="1556709962880" duration="8898000" />
       <workItem from="1556910016552" duration="29000" />
       <workItem from="1556964783356" duration="143000" />
-      <workItem from="1558858651831" duration="2908000" />
+      <workItem from="1558858651831" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1544475428684</created>
@@ -400,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556718899195</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updates">
+      <created>1558862628330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558862628330</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,13 +442,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52091000" />
+    <option name="totallyTimeSpent" value="52361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +462,7 @@
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3282123" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.096368715" />
       <window_info anchor="bottom" id="Run" order="11" weight="0.23603351" />
@@ -482,7 +487,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Keyword Driven" />
     <MESSAGE value="All libs" />
-    <option name="LAST_COMMIT_MESSAGE" value="All libs" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
