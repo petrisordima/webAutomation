@@ -1,4 +1,4 @@
-<project name="Automation" default="run" basedir=".">
+<project name="Automation" default="openReport" basedir=".">
 
 
     <!-- Defining property -->
