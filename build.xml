@@ -37,7 +37,9 @@
     <!-- Loading Testng -->
 
     <target name="loadTestNG" depends="setClassPath">
+        <echo message="loading testng... "/>
         <taskdef resource="testngtasks" classpath="${test.classpath}"/>
+        <echo message="loaded OK "/>
     </target>
 
     <!-- Deleting directories -->

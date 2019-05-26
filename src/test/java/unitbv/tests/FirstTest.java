@@ -19,8 +19,7 @@ public class FirstTest extends TestOperations {
         click("//a[@class='brand']");
         click("//a[contains(.,'Platforma e-Learning 2018-2019')]");
         click("//span[@class='item-content-wrap'][contains(.,'Pagina principală')]");
-        assertElementPresent("//td[contains(.,'80,00')]");
-
+        //assertElementPresent("//td[contains(.,'80,00')]");
 
     }
 }

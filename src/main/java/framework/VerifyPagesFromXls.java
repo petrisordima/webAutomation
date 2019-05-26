@@ -15,7 +15,7 @@ public class VerifyPagesFromXls extends TestOperations {
     public void verifyUrlUsingXPath(String elementChecked, String url, String xpath) {
 
         goToPage(TestParams.getBaseUrl() + url);
-        Util.Log.info("open page : " + url + " to chek :" + elementChecked);
+        Util.Log.info("open page : " + url + " to check :" + elementChecked);
         assertElementPresent(xpath);
 
     }

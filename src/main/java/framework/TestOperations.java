@@ -68,7 +68,6 @@ public class TestOperations extends InitWebDriver {
 
         Actions action = new Actions(driver);
 
-
         try {
             wait(TestParams.getWait());
             WebElement element = driver.findElement(By.xpath(xPath));
@@ -98,6 +97,7 @@ public class TestOperations extends InitWebDriver {
             String ElementText = element.getText();
             element.click();
             Util.Log.info("Click button : " + Util.normalizeText(ElementText));
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element "
@@ -120,6 +120,7 @@ public class TestOperations extends InitWebDriver {
             String ElementText = element.getText();
             element.click();
             Util.Log.info("Click element with text : " + Util.normalizeText(ElementText));
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element "
@@ -143,6 +144,7 @@ public class TestOperations extends InitWebDriver {
             element.clear();
             element.sendKeys(inputText);
             Util.Log.info("Text : " + Util.normalizeText(inputText) + " sent to : " + xPath);
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element " + Util.normalizeText(xPath) + " not found on page "));
@@ -167,6 +169,7 @@ public class TestOperations extends InitWebDriver {
             element.clear();
             element.sendKeys(inputText + Keys.RETURN);
             Util.Log.info("Text : " + Util.normalizeText(inputText) + " sent to : " + xPath);
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element " + Util.normalizeText(xPath) + " not found on page "));
@@ -188,6 +191,7 @@ public class TestOperations extends InitWebDriver {
             element.clear();
             element.sendKeys(inputText);
             Util.Log.info("Text : " + Util.normalizeText(inputText) + " sent to : " + Util.normalizeText(label));
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element with label : " + Util.normalizeText(label) + " not found on page "));
@@ -212,6 +216,7 @@ public class TestOperations extends InitWebDriver {
             Assert.assertEquals(ElementText, text);
             Util.Log.info("Element " + Util.normalizeText(text) + " was checked on page");
             return true;
+
         } catch (Throwable T) {
             Util.ScreenShot();
             Assert.fail(Util.Log.error("Element " + Util.normalizeText(xPath) + " not found on page "));
@@ -278,6 +283,7 @@ public class TestOperations extends InitWebDriver {
             new Select(element).selectByIndex(n_thValue);
             Util.Log.info("Value " + n_thValue + " selected fot dropdown : " + xPath);
             wait(1);
+
         } catch (Throwable t) {
             Util.ScreenShot();
             System.out.println(t);
