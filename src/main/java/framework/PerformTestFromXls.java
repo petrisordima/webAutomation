@@ -11,9 +11,9 @@ public class PerformTestFromXls extends TestOperations {
     }
 
     @Test(dataProvider = "GetDataFromXlsFile")
-    public void runTestCase(String operation, String value, String xpath) {
+    public void runTestCase(String operation, String xpath, String value) {
 
-        perform(operation, value, xpath);
+        perform(operation, xpath, value);
 
     }
 
@@ -22,7 +22,7 @@ public class PerformTestFromXls extends TestOperations {
         return (Util.getTableArray(sheetName()));
     }
 
-    private void perform(String operation, String value, String xpath) {
+    private void perform(String operation, String xpath, String value) {
         System.out.println("");
         switch (operation.toUpperCase()) {
             case "CLICK":
