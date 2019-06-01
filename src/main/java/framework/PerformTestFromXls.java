@@ -23,50 +23,53 @@ public class PerformTestFromXls extends TestOperations {
     }
 
     private void perform(String operation, String xpath, String value) {
-        System.out.println("");
-        switch (operation.toUpperCase()) {
-            case "CLICK":
-                //Perform click
-                click(xpath);
-                break;
-            case "SEND_TEXT":
-                sendText(value, xpath);
-                break;
-            case "GO_TO_URL":
-                goToPage(value);
-                break;
-            case "ASERT_ELEMENT_PRESENT":
-                assertElementPresent(xpath);
-                break;
-            case "WAIT":
-                wait(Integer.parseInt(value));
-                break;
-            case "DOUBLE_CLICK":
-                doubleClick(xpath);
-                break;
-            case "CLICK_BUTTON_TEXT":
-                clickButton(xpath);
-                break;
-            case "CLICK_ELEMENT_WITH_TEXT":
-                clickElementWithText(value);
-                break;
-            case "SEND_TEXT_ENTER":
-                sendText(value, xpath);
-                break;
-            case "ASSERT_TEXT_EQUALS":
-                assertTextEquals(xpath, value);
-                break;
-            case "GO_TO_POP_UP":
-                goToPopUp();
-                break;
-            case "UPLOAD_FILE":
-                uploadFile(value);
-                break;
-            case "DOWNLOAD_FILE":
-                autoDownloadFile();
-                break;
-            default:
-                break;
+        try {
+            switch (operation.toUpperCase()) {
+                case "CLICK":
+                    //Perform click
+                    click(xpath);
+                    break;
+                case "SEND_TEXT":
+                    sendText(value, xpath);
+                    break;
+                case "GO_TO_URL":
+                    goToUrl(value);
+                    break;
+                case "ASERT_ELEMENT_PRESENT":
+                    assertElementPresent(xpath);
+                    break;
+                case "WAIT":
+                    wait(Integer.parseInt(value));
+                    break;
+                case "DOUBLE_CLICK":
+                    doubleClick(xpath);
+                    break;
+                case "CLICK_BUTTON_TEXT":
+                    clickButton(xpath);
+                    break;
+                case "CLICK_ELEMENT_WITH_TEXT":
+                    clickElementWithText(value);
+                    break;
+                case "SEND_TEXT_ENTER":
+                    sendText(value, xpath);
+                    break;
+                case "ASSERT_TEXT_EQUALS":
+                    assertTextEquals(xpath, value);
+                    break;
+                case "GO_TO_POP_UP":
+                    goToPopUp();
+                    break;
+                case "UPLOAD_FILE":
+                    uploadFile(value);
+                    break;
+                case "DOWNLOAD_FILE":
+                    autoDownloadFile();
+                    break;
+                default:
+                    break;
+            }
+        }catch (Exception e){
+            Util.Log.error("Unhandeled exception or null parameter...");
         }
     }
 }

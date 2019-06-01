@@ -1,9 +1,7 @@
 <project name="Automation" default="openReport" basedir=".">
 
-
-    <!-- Defining property -->
-
-
+    <property file="unitbv.properties"/>
+    <!-- Defining property - they are laoded from unitbv.properties
     <property name="project.dir" value="${basedir}"/>
     <property name="report.dir" value="D:/testreport"/>
     <property name="build.dir" value="${basedir}/bin"/>
@@ -13,7 +11,8 @@
     <property name="test.input.folder" value="/"/>
     <property name="suite" value="TestSuite.xml"/>
     <property name="ng.result" value="${basedir}/test-output"/>
-    <property name="browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
+    -->
+    <property name="chrome.browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
     <property name="file" location="${report.dir}/report/index.html"/>
 
     <tstamp>
@@ -123,7 +122,7 @@
     </target>
     <target name="openReport" depends="makexsltreports">
 
-        <exec executable="${browser}" spawn="true">
+        <exec executable="${chrome.browser}" spawn="true">
             <arg value="${file}"/>
         </exec>
 

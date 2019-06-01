@@ -10,7 +10,7 @@ public class CheckISGrade extends TestOperations {
     @Test
     public static void verifyISGradeOnIntranet() {
 
-        goToPage(ELearningWebPages.PLATFORM_URL);
+        goToUrl(ELearningWebPages.PLATFORM_URL);
 
         //  Perform Login
         login("petrisor.dima@student.unitbv.ro", "VrTzBsDJDwFz54Q");

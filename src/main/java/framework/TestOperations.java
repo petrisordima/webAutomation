@@ -354,7 +354,7 @@ public class TestOperations extends InitWebDriver {
      * modal pop-ups (isAlertPresent) and accepts them
      */
 
-    public static void goToPage(String baseUrl) {
+    public static void goToUrl(String baseUrl) {
 
         Util.Log.info("Page  opened");
         driver.get(baseUrl);
