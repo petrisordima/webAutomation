@@ -4,7 +4,7 @@
 
     <test name="1.1 Dummy test" preserve-order="true">
         <classes>
-            <class name="unitbv.tests.TestFromXls"></class>
+            <class name="TestFromXls"></class>
         </classes>
     </test>
 
