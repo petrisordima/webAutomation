@@ -14,7 +14,6 @@ public class TestParams {
     private static String BROWSER;
     private static String USER_MD5;
     private static String SCREEN_SHOT_DIR;
-    private static String SCREEN_SHOT_URL;
     private static String MAIN_WINDOW;
     private static String DATA_FILE_PATH_XLS;
 
@@ -92,14 +91,6 @@ public class TestParams {
         return SCREEN_SHOT_DIR;
     }
 
-    // ScreenShotUrl
-    public static void setScreenShotUrl(String property) {
-        SCREEN_SHOT_URL = property;
-    }
-
-    public static String getScreenShotUrl() {
-        return SCREEN_SHOT_URL;
-    }
 
     // xlsFilePath
     public static void setXlsFilePath(String property) {
@@ -128,7 +119,6 @@ public class TestParams {
             setBrowser(prop.getProperty("browser"));
             setUserMd5(prop.getProperty("user.md5"));
             setScreenShotDir(prop.getProperty("screen.shot.dir"));
-            setScreenShotUrl(prop.getProperty("screen.shot.url"));
             setXlsFilePath(prop.getProperty("file.path.xls"));
 
 
@@ -143,7 +133,6 @@ public class TestParams {
 
         Util.Log.info("@ ____General Parameters___ @ ");
         Util.Log.info(" screen.shot.dir 				: " + getScreenShotDir());
-        Util.Log.info(" screen.shot.url 				: " + getScreenShotUrl());
         Util.Log.info(" unitbv.url 						: " + getBaseUrl());
         Util.Log.info(" selenium.url 					: " + getSeleniumUrl());
         Util.Log.info(" browser						    : " + getBrowser());

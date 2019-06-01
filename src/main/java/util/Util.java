@@ -55,15 +55,14 @@ public class Util {
     public static void ScreenShot() {
         try {
             String newFileNamePath;
-            String urlFileNamePath;
+            new File(TestParams.getScreenShotDir()).mkdirs();
             File directory = new File(TestParams.getScreenShotDir());
-            newFileNamePath = TestParams.getScreenShotDir() + "\\" + logTime() + ".png";
-            urlFileNamePath = TestParams.getScreenShotUrl() +"/" + logTime() + ".png";
-            System.out.println(" [ERROR] - ScreenShot taken: " + urlFileNamePath);
+            newFileNamePath = TestParams.getScreenShotDir() + "/" + logTime() + ".png";
+            System.out.println(" [ERROR] - ScreenShot taken: " + newFileNamePath);
             Robot robot = new Robot();
             BufferedImage bi = robot.createScreenCapture(new Rectangle(1680, 1050));
             ImageIO.write(bi, "png", new File(newFileNamePath));
-            Log.error("ScreenShot taken : " + urlFileNamePath);
+            Log.error("ScreenShot taken : " + newFileNamePath);
         } catch (AWTException e) {
             e.printStackTrace();
         } catch (IOException e) {
