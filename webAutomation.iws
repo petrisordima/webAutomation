@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suites/TestsFromJavaCasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suites/TestsFromXlsFiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitbv.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unitbv.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webAutomation.iws" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/VerifyPagesFromXls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -39,35 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/entities/Web.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/TestParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
-              <folding>
-                <element signature="method#readParams#0;class#TestParams#0" />
-                <element signature="e#2326#3098#0" />
-                <element signature="e#3131#3234#0" />
-                <element signature="e#3257#3294#0" />
-              </folding>
+            <state relative-caret-position="-340">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -82,113 +53,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadExcelFile.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/framework/InitWebDriver.java">
+        <entry file="file://$PROJECT_DIR$/TestSuite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-              <folding>
-                <element signature="e#1271#1393#1" />
-                <element signature="e#1459#1626#1" />
-                <element signature="e#1697#1766#1" />
-                <element signature="e#1772#2419#1" />
-                <element signature="e#1836#2031#1" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/framework/TestOperations.java">
+        <entry file="file://$PROJECT_DIR$/suites/TestsFromJavaCasses.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="497" column="42" selection-start-line="497" selection-start-column="42" selection-end-line="497" selection-end-column="42" />
-              <folding>
-                <element signature="docComment;class#TestOperations#0" />
-                <element signature="docComment;method#login#0;class#TestOperations#0" />
-                <element signature="method#login#0;class#TestOperations#0" />
-                <element signature="e#865#967#0" />
-                <element signature="docComment;method#click#0;class#TestOperations#0" />
-                <element signature="method#click#0;class#TestOperations#0" />
-                <element signature="e#1160#1444#0" />
-                <element signature="e#1465#1613#0" />
-                <element signature="docComment;method#doubleClick#0;class#TestOperations#0" />
-                <element signature="method#doubleClick#0;class#TestOperations#0" />
-                <element signature="e#1823#2079#0" />
-                <element signature="e#2100#2248#0" />
-                <element signature="docComment;method#clickButton#0;class#TestOperations#0" />
-                <element signature="method#clickButton#0;class#TestOperations#0" />
-                <element signature="e#2442#2762#0" />
-                <element signature="e#2783#2987#0" />
-                <element signature="docComment;method#clickElementWithText#0;class#TestOperations#0" />
-                <element signature="method#clickElementWithText#0;class#TestOperations#0" />
-                <element signature="e#3184#3518#0" />
-                <element signature="e#3539#3737#0" />
-                <element signature="docComment;method#sendText#0;class#TestOperations#0" />
-                <element signature="method#sendText#0;class#TestOperations#0" />
-                <element signature="e#3982#4268#0" />
-                <element signature="e#4289#4436#0" />
-                <element signature="docComment;method#sendText_enter#0;class#TestOperations#0" />
-                <element signature="method#sendText_enter#0;class#TestOperations#0" />
-                <element signature="e#4781#5081#0" />
-                <element signature="e#5102#5249#0" />
-                <element signature="docComment;method#sendTextbyLabel#0;class#TestOperations#0" />
-                <element signature="method#sendTextbyLabel#0;class#TestOperations#0" />
-                <element signature="e#5469#5852#0" />
-                <element signature="e#5873#6033#0" />
-                <element signature="docComment;method#assertTextEquals#0;class#TestOperations#0" />
-                <element signature="method#assertTextEquals#0;class#TestOperations#0" />
-                <element signature="e#6305#6647#0" />
-                <element signature="e#6668#6841#0" />
-                <element signature="docComment;method#assertElementPresent#0;class#TestOperations#0" />
-                <element signature="method#assertElementPresent#0;class#TestOperations#0" />
-                <element signature="e#7028#7324#0" />
-                <element signature="e#7345#7517#0" />
-                <element signature="docComment;method#checkElementPresent#0;class#TestOperations#0" />
-                <element signature="method#checkElementPresent#0;class#TestOperations#0" />
-                <element signature="e#7673#7971#0" />
-                <element signature="e#7992#8029#0" />
-                <element signature="docComment;method#dropdownSelect#0;class#TestOperations#0" />
-                <element signature="method#dropdownSelect#0;class#TestOperations#0" />
-                <element signature="e#8248#8594#0" />
-                <element signature="e#8615#8798#0" />
-                <element signature="docComment;method#checkBrowserAlertAndAcceptIt#0;class#TestOperations#0" />
-                <element signature="method#checkBrowserAlertAndAcceptIt#0;class#TestOperations#0" />
-                <element signature="docComment;method#saveNumber#0;class#TestOperations#0" />
-                <element signature="method#saveNumber#0;class#TestOperations#0" />
-                <element signature="docComment;method#goToUrl#0;class#TestOperations#0" />
-                <element signature="method#goToUrl#0;class#TestOperations#0" />
-                <element signature="docComment;method#goToPopUp#0;class#TestOperations#0" />
-                <element signature="method#goToPopUp#0;class#TestOperations#0" />
-                <element signature="docComment;method#goToFrameByName#0;class#TestOperations#0" />
-                <element signature="method#goToFrameByName#0;class#TestOperations#0" />
-                <element signature="docComment;method#goToFrameByPath#0;class#TestOperations#0" />
-                <element signature="method#goToFrameByPath#0;class#TestOperations#0" />
-                <element signature="docComment;method#goToDefaultContent#0;class#TestOperations#0" />
-                <element signature="docComment;method#acceptAlert#0;class#TestOperations#0" />
-                <element signature="method#acceptAlert#0;class#TestOperations#0" />
-                <element signature="docComment;method#isAlertPresent#0;class#TestOperations#0" />
-                <element signature="method#isAlertPresent#0;class#TestOperations#0" />
-                <element signature="docComment;method#checkIfTextContainsString#0;class#TestOperations#0" />
-                <element signature="method#checkIfTextContainsString#0;class#TestOperations#0" />
-                <element signature="docComment;method#wait#0;class#TestOperations#0" />
-                <element signature="method#wait#0;class#TestOperations#0" />
-                <element signature="docComment;method#uploadFile#0;class#TestOperations#0" />
-                <element signature="method#uploadFile#0;class#TestOperations#0" />
-                <element signature="docComment;method#autoDownloadFile#0;class#TestOperations#0" />
-                <element signature="method#autoDownloadFile#0;class#TestOperations#0" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suites/TestsFromXlsFiles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unitbv.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -258,9 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/unitbv/util/ModuleUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/unitbv/util/TestOperations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hybrid/testCases/HybridExecuteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/hybrid/excelExportAndFileIO/ReadGuru99ExcelFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/unitbv/util/HybridExecuteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/unitbv/operation/UIOperation.java" />
@@ -299,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/main/java/framework/InitWebDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/TestParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
-        <option value="$PROJECT_DIR$/unitbv.properties" />
         <option value="$PROJECT_DIR$/TestSuite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/PerformTestFromXls.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/VerifyPagesFromXls.java" />
@@ -309,6 +218,10 @@
         <option value="$PROJECT_DIR$/src/test/java/unitbv/entities/Web.java" />
         <option value="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/suites/TestsFromJavaCasses.xml" />
+        <option value="$PROJECT_DIR$/suites/TestsFromXlsFiles.xml" />
+        <option value="$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml" />
+        <option value="$PROJECT_DIR$/unitbv.properties" />
       </list>
     </option>
   </component>
@@ -357,80 +270,7 @@
             <path>
               <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unitbv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unitbv" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proiect Licenta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unitbv" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,9 +285,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559478343610" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559583140696" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/HybridFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/suites/TestsFromJavaCasses.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -455,6 +295,7 @@
     <property name="project.structure.side.proportion" value="0.45734596" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.18443803" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/suites/TestsFromJavaCasses.xml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -464,22 +305,22 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Proiect Licenta\suites" />
+      <recent name="D:\Facultate\Proiect Licenta\z_ts" />
+      <recent name="D:\Facultate\Proiect Licenta\lib" />
+      <recent name="D:\Facultate\Proiect Licenta\src\test\java\unitbv" />
+      <recent name="D:\Facultate\Proiect Licenta\src\test\java\hybrid" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unitbv.util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Facultate\Proiect Licenta" />
       <recent name="D:\Facultate\Proiect Licenta\src\test\java" />
       <recent name="D:\Facultate\Proiect Licenta\src\test\unitbv" />
       <recent name="D:\Facultate\Proiect Licenta\src\test" />
       <recent name="D:\Facultate\Proiect Licenta\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="unitbv.util" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Facultate\Proiect Licenta\z_ts" />
-      <recent name="D:\Facultate\Proiect Licenta\lib" />
-      <recent name="D:\Facultate\Proiect Licenta\src\test\java\unitbv" />
-      <recent name="D:\Facultate\Proiect Licenta\src\test\java\hybrid" />
-      <recent name="D:\Facultate\Proiect Licenta" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckISGrade.verifyISGradeOnIntranet">
+  <component name="RunManager" selected="TestNG.D:/Facultate/Proiect Licenta/TestSuite.xml">
     <configuration name="CheckISGrade (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webAutomation" />
       <extension name="coverage">
@@ -564,17 +405,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFromXls" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Facultate/Proiect Licenta/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitbv.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitbv.tests" />
-      <option name="MAIN_CLASS_NAME" value="unitbv.tests.TestFromXls" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -582,19 +416,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestFromXls" />
       <item itemvalue="TestNG.CheckISGrade.verifyISGradeOnIntranet" />
       <item itemvalue="TestNG.CheckISGrade" />
       <item itemvalue="TestNG.CheckISGrade (1)" />
       <item itemvalue="TestNG.CheckISGrade (2)" />
+      <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/TestSuite.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Facultate/Proiect Licenta/TestSuite.xml" />
         <item itemvalue="TestNG.CheckISGrade.verifyISGradeOnIntranet" />
         <item itemvalue="TestNG.CheckISGrade (2)" />
         <item itemvalue="TestNG.CheckISGrade (1)" />
         <item itemvalue="TestNG.CheckISGrade" />
-        <item itemvalue="TestNG.TestFromXls" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +478,7 @@
       <workItem from="1559383185776" duration="4815000" />
       <workItem from="1559388718162" duration="5487000" />
       <workItem from="1559475416943" duration="3319000" />
-      <workItem from="1559581153595" duration="230000" />
+      <workItem from="1559581153595" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1544475428684</created>
@@ -758,13 +592,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559581242152</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ant buid properties in unitbv.properties suite">
+      <created>1559581397325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559581397326</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ant buid properties in unitbv.properties suite">
+      <created>1559581609050</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559581609050</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckISGrade - 2019.06.01 at 11h 57m 16s.xml">
-      <configuration name="CheckISGrade" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckISGrade - 2019.06.01 at 11h 58m 02s.xml">
       <configuration name="CheckISGrade" configurationId="TestNG" />
     </history-entry>
@@ -792,15 +637,18 @@
     <history-entry file="CheckISGrade_verifyISGradeOnIntranet - 2019.06.01 at 14h 05m 59s.xml">
       <configuration name="CheckISGrade.verifyISGradeOnIntranet" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Facultate_Proiect_Licenta_TestSuite_xml - 2019.06.03 at 20h 31m 53s.xml">
+      <configuration name="D:/Facultate/Proiect Licenta/TestSuite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75786000" />
+    <option name="totallyTimeSpent" value="77542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.3228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21140939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -808,7 +656,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50139666" side_tool="true" weight="0.2966443" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3840782" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.3840782" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -816,12 +664,12 @@
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282123" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.13547486" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.20056497" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5060403" side_tool="true" visible="true" weight="0.18994413" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49395972" visible="true" weight="0.18994413" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49932885" weight="0.19972067" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.4590846" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.17919463" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -888,34 +736,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/xml/XmlSuite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
-          <folding>
-            <element signature="e#5715#5716#0" expanded="true" />
-            <element signature="e#5750#5751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/collections/Lists.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/BaseTestMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1143,31 +963,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/z_ts/build2.xml" />
     <entry file="file://$PROJECT_DIR$/RunJenkins.bat" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webAutomation.ipr">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitbv.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1202,13 +1001,6 @@
             <element signature="e#3131#3234#0" />
             <element signature="e#3257#3294#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckUnitBV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1291,51 +1083,29 @@
             <element signature="e#8615#8798#0" />
             <element signature="docComment;method#checkBrowserAlertAndAcceptIt#0;class#TestOperations#0" />
             <element signature="method#checkBrowserAlertAndAcceptIt#0;class#TestOperations#0" />
-            <element signature="e#9870#9947#1" />
-            <element signature="e#9953#10010#1" />
             <element signature="docComment;method#saveNumber#0;class#TestOperations#0" />
             <element signature="method#saveNumber#0;class#TestOperations#0" />
-            <element signature="e#10355#10608#0" />
-            <element signature="e#10642#10789#0" />
             <element signature="docComment;method#goToUrl#0;class#TestOperations#0" />
             <element signature="method#goToUrl#0;class#TestOperations#0" />
             <element signature="docComment;method#goToPopUp#0;class#TestOperations#0" />
             <element signature="method#goToPopUp#0;class#TestOperations#0" />
-            <element signature="e#11449#11780#1" />
-            <element signature="e#11491#11770#1" />
-            <element signature="e#11629#11755#1" />
-            <element signature="e#11786#11892#1" />
             <element signature="docComment;method#goToFrameByName#0;class#TestOperations#0" />
             <element signature="method#goToFrameByName#0;class#TestOperations#0" />
-            <element signature="e#12133#12261#0" />
-            <element signature="e#12282#12425#0" />
             <element signature="docComment;method#goToFrameByPath#0;class#TestOperations#0" />
             <element signature="method#goToFrameByPath#0;class#TestOperations#0" />
-            <element signature="e#12646#12771#0" />
-            <element signature="e#12792#12940#0" />
             <element signature="docComment;method#goToDefaultContent#0;class#TestOperations#0" />
             <element signature="docComment;method#acceptAlert#0;class#TestOperations#0" />
             <element signature="method#acceptAlert#0;class#TestOperations#0" />
-            <element signature="e#13174#13419#0" />
-            <element signature="e#13455#13529#0" />
             <element signature="docComment;method#isAlertPresent#0;class#TestOperations#0" />
             <element signature="method#isAlertPresent#0;class#TestOperations#0" />
-            <element signature="e#13688#13763#0" />
-            <element signature="e#13799#13836#0" />
             <element signature="docComment;method#checkIfTextContainsString#0;class#TestOperations#0" />
             <element signature="method#checkIfTextContainsString#0;class#TestOperations#0" />
             <element signature="docComment;method#wait#0;class#TestOperations#0" />
             <element signature="method#wait#0;class#TestOperations#0" />
-            <element signature="e#14388#14439#0" />
-            <element signature="e#14471#14515#0" />
             <element signature="docComment;method#uploadFile#0;class#TestOperations#0" />
             <element signature="method#uploadFile#0;class#TestOperations#0" />
-            <element signature="e#14802#15249#0" />
-            <element signature="e#15273#15318#0" />
             <element signature="docComment;method#autoDownloadFile#0;class#TestOperations#0" />
             <element signature="method#autoDownloadFile#0;class#TestOperations#0" />
-            <element signature="e#15446#15798#0" />
-            <element signature="e#15822#15867#0" />
           </folding>
         </state>
       </provider>
@@ -1380,10 +1150,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suites/TestsFromXlsFiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckUnitBV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suites/TestsFromJavaCasses.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="-340">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitbv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
