@@ -1,6 +1,6 @@
 package unitbv.tests;
 
-import framework.PerformTestFromXls;
+import util.PerformTestFromXls;
 
 
 public class TestFromXls extends PerformTestFromXls {

@@ -290,29 +290,6 @@ public class TestOperations extends InitWebDriver {
 
     }
 
-    /**
-     * Selects a value from an Ext dropdown list. @n_thValue = the order of the
-     * desired item starting from 0
-     */
-
-    public static void dropdownSelect_Ext(String xPath, int n_thValue) {
-
-        try {
-            wait(TestParams.getWait());
-            WebElement ldc = driver.findElement(By.xpath(xPath));
-            ldc.click();
-            List<WebElement> ldcItems = driver.findElements(By
-                    .xpath("//div[contains(@style,'visible')]//div[contains (@class,'x-combo-list-item')]"));
-            WebElement item = ldcItems.get(n_thValue);
-            item.click();
-            Util.Log.info("Value " + n_thValue + " selected fot dropdownExt : " + xPath);
-        } catch (Throwable T) {
-            Util.ScreenShot();
-            Assert.fail(Util.Log.error("Element " + Util.normalizeText(xPath) + " not found on page "));
-        }
-
-    }
-
 
     /**
      * verifies if a browser modal pop-up is displayed (Ex Request Error 0)

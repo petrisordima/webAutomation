@@ -2,7 +2,7 @@ package unitbv.tests;
 
 import framework.TestOperations;
 import org.testng.annotations.Test;
-import unitbv.entities.ELearningWebPages;
+import unitbv.entities.Web;
 
 public class CheckISGrade extends TestOperations {
 
@@ -10,30 +10,30 @@ public class CheckISGrade extends TestOperations {
     @Test
     public static void verifyISGradeOnIntranet() {
 
-        goToUrl(ELearningWebPages.PLATFORM_URL);
+        goToUrl(Web.PLATFORM_URL);
 
         //  Perform Login
         login("petrisor.dima@student.unitbv.ro", "VrTzBsDJDwFz54Q");
 
         //  Check course IS grade is present
-        click(ELearningWebPages.HomepagePage.Profile.PROFILE_PHOTO);
-        click(ELearningWebPages.HomepagePage.Profile.PROFILE_GRADES);
-        assertElementPresent(ELearningWebPages.MyGradesPage.IS_COURSE);
-        click(ELearningWebPages.MyGradesPage.IS_COURSE);
-        assertElementPresent(ELearningWebPages.MyGradesPage.ISGrades.COURSE_TOTAL);
-        click(ELearningWebPages.HomepagePage.Profile.PROFILE_PHOTO);
-        click(ELearningWebPages.HomepagePage.Profile.PROFILE_GRADES);
+        click(Web.HomePage.Profile.PROFILE_PHOTO);
+        click(Web.HomePage.Profile.PROFILE_GRADES);
+        assertElementPresent(Web.MyGradesPage.IS_COURSE);
+        click(Web.MyGradesPage.IS_COURSE);
+        assertElementPresent(Web.MyGradesPage.ISGrades.COURSE_TOTAL);
+        click(Web.HomePage.Profile.PROFILE_PHOTO);
+        click(Web.HomePage.Profile.PROFILE_GRADES);
 
         // back to homepage
-        click(ELearningWebPages.HOME_LOGO);
+        click(Web.HomePage.HOME_LOGO);
 
     }
 
     //  Reusable login method
 
     public static void login(String username, String password) {
-        sendText("petrisor.dima@student.unitbv.ro", ELearningWebPages.LoginPage.INPUT_USERNAME);
-        sendText("VrTzBsDJDwFz54Q", ELearningWebPages.LoginPage.INPUT_PASSWORD);
-        click(ELearningWebPages.LoginPage.BTN_LOGIN);
+        sendText("petrisor.dima@student.unitbv.ro", Web.LoginPage.INPUT_USERNAME);
+        sendText("VrTzBsDJDwFz54Q", Web.LoginPage.INPUT_PASSWORD);
+        click(Web.LoginPage.BTN_LOGIN);
     }
 }

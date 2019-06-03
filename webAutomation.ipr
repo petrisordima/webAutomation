@@ -156,6 +156,7 @@
     <dictionary name="PC">
       <words>
         <w>paralel</w>
+        <w>unhandeled</w>
       </words>
     </dictionary>
   </component>

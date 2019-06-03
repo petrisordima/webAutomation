@@ -1,9 +1,9 @@
 package unitbv.entities;
 
-public class ELearningWebPages {
+public class Web {
 
     public static final String PLATFORM_URL = "https://elearning.unitbv.ro/login/index.php";
-    public static final String HOME_LOGO = "//img[contains(@class,'small-logo')]";
+
 
     public class LoginPage {
 
@@ -13,7 +13,9 @@ public class ELearningWebPages {
 
     }
 
-    public class HomepagePage {
+    public class HomePage {
+
+        public static final String HOME_LOGO = "//img[contains(@class,'small-logo')]";
 
         public class Profile {
             public static final String PROFILE_PHOTO = "//span[contains(@class,'userbutton')]";

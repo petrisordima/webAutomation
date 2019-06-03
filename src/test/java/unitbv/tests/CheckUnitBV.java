@@ -1,7 +1,7 @@
 package unitbv.tests;
 
 
-import framework.VerifyPagesFromXls;
+import util.VerifyPagesFromXls;
 
 public class CheckUnitBV extends VerifyPagesFromXls {
 
