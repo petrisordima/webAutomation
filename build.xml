@@ -11,6 +11,8 @@
     <property name="test.input.folder" value="/"/>
     <property name="suite" value="TestSuite.xml"/>
     <property name="ng.result" value="${basedir}/test-output"/>
+
+
     -->
     <property name="chrome.browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
     <property name="file" location="${report.dir}/report/index.html"/>
