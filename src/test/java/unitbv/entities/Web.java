@@ -19,7 +19,7 @@ public class Web {
 
         public class Profile {
             public static final String PROFILE_PHOTO = "//span[contains(@class,'userbutton')]";
-            public static final String PROFILE_GRADES = "//span[@class='menu-actiondd-text'][contains(.,'Note')]";
+            public static final String PROFILE_GRADES = "//span[@class='menu-action-text'][contains(.,'Note')]";
         }
     }
 

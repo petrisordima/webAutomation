@@ -453,7 +453,7 @@ public class TestOperations extends InitWebDriver {
      */
 
     public static void wait(int seconds) {
-        int milliSeconds = seconds * 200;
+        int milliSeconds = seconds * 100;
         try {
             Thread.sleep(milliSeconds);
         } catch (InterruptedException e) {
