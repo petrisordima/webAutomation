@@ -1,6 +1,6 @@
 <suite name="Tests from xls file" preserve-order="true">
 
-    <test name="Test Suite" preserve-order="true">
+    <test name="Test From Xls" preserve-order="true">
         <classes>
             <class name="unitbv.tests.TestFromXls"></class>
         </classes>
