@@ -55,7 +55,7 @@
     <target name="cleanScreenshots">
         <echo message="deleting existing ScrShot directory"/>
         <delete dir="${screen.shot.dir}"/>
-        <mkdir dir="$screen.shot.dir}"/>
+        <mkdir dir="${screen.shot.dir}"/>
     </target>
 
     <!-- Creating build folder to store compiled classes -->
