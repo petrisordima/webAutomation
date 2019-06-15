@@ -3,12 +3,12 @@ package unitbv.tests;
 
 import util.VerifyPagesFromXls;
 
-public class CheckUnitBV extends VerifyPagesFromXls {
+public class CheckWebPages extends VerifyPagesFromXls {
 
 
     @Override
     public String sheetName() {
-        return "unitbv";
+        return "checkPages";
     }
 
 }

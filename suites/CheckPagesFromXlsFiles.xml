@@ -2,7 +2,7 @@
 
     <test name="Check Unit BV Intranet" preserve-order="true">
         <classes>
-            <class name="unitbv.tests.CheckUnitBV"></class>
+            <class name="unitbv.tests.CheckWebPages"></class>
         </classes>
     </test>
 

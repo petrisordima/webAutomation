@@ -8,7 +8,7 @@ public class CheckISGrade extends TestOperations {
 
 
     @Test
-    public static void verifyISGradeOnIntranet() {
+    public void verifyISGradeOnIntranet() {
 
         goToUrl(Web.PLATFORM_URL);
 
@@ -31,7 +31,7 @@ public class CheckISGrade extends TestOperations {
 
     //  Reusable login method
 
-    public static void login(String username, String password) {
+    public void login(String username, String password) {
         sendText("petrisor.dima@student.unitbv.ro", Web.LoginPage.INPUT_USERNAME);
         sendText("VrTzBsDJDwFz54Q", Web.LoginPage.INPUT_PASSWORD);
         click(Web.LoginPage.BTN_LOGIN);

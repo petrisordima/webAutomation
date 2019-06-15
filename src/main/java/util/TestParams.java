@@ -107,7 +107,7 @@ public class TestParams {
         Util.Log.info("Preparing test execution ");
         try {
 
-            FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/unitbv.properties");
+            FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/testRunner.properties");
 
             Util.Log.info("Loading unitbv.proprieties file ");
 

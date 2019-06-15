@@ -14,13 +14,13 @@ import util.Util;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-
 /**
  * The main. Where all test operations are initialized and
  * prepares the test execution, loading its parameters
  *
  * @author pdima
  */
+
 public class InitWebDriver {
 
     public static WebDriver driver;
@@ -28,12 +28,12 @@ public class InitWebDriver {
     @BeforeSuite
     public static void openDriver() throws Exception {
 
-        // loads test parameters from ..z_ts\\fwk.properties
+
         TestParams.readParams();
         System.setProperty("webdriver.gecko.driver", "resources/geckodriver.exe");
         Util.Log.info("Start Driver");
-        System.out.println("  [INFO] - browser set in unitbv.propreties = " + TestParams.getBrowser());
-        System.out.println("  [INFO] - wait betwen operation set in unitbv.propreties = " + TestParams.getWait());
+        System.out.println("  [INFO] - browser set in testRunner.propreties = " + TestParams.getBrowser());
+        System.out.println("  [INFO] - wait betwen operation set in testRunner.propreties = " + TestParams.getWait());
         if (TestParams.getSeleniumUrl() != null) {
             driver = new RemoteWebDriver(new URL(TestParams.getSeleniumUrl()), DesiredCapabilities.firefox());
         } else {
@@ -52,7 +52,6 @@ public class InitWebDriver {
                     System.out.println(" [CONFIGURATION ERROR] - Browser misspelled. Check browser parameter in unitbv.proprieties. Firefox set as default");
                     Util.Log.error("[CONFIGURATION ERROR] - Browser misspelled. Check browser parameter in unitbv.proprieties. Firefox set as default");
                 }
-
             }
         }
 
@@ -60,7 +59,6 @@ public class InitWebDriver {
         driver.manage().window().maximize();
 
         String mainWindow = driver.getWindowHandle();
-
 
     }
 

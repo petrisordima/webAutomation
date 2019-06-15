@@ -1,0 +1,131 @@
+<project name="Automation" default="openReport" basedir=".">
+
+
+    <!-- Defining property - they are laoded from testRunner.properties -->
+    <property name="project.dir" value="${basedir}"/>
+    <property name="report.dir" value="D:/testreport"/>
+    <property name="build.dir" value="${basedir}/bin"/>
+    <property name="ScrShot.dir" value="${report.dir}/screenShots"/>
+    <property name="jar.dir" value="${basedir}/lib"/>
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="test.input.folder" value="/"/>
+    <property name="suite" value="TestsFromJavaCasses.xml"/>
+    <property name="ng.result" value="${basedir}/test-output"/>
+
+    <property name="chrome.browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
+    <property name="file" location="${report.dir}/report/index.html"/>
+
+    <tstamp>
+        <format property="TODAY" pattern="yyyy_MM_dd_HH_mm_ss" locale="en"/>
+    </tstamp>
+
+    <!-- Setting Classpath for jar files -->
+
+    <target name="setClassPath">
+        <path id="classpath_jars">
+            <pathelement path="${basedir}/"/>
+            <fileset dir="${jar.dir}">
+                <include name="*.jar"/>
+            </fileset>
+        </path>
+        <pathconvert pathsep=":"
+                     property="test.classpath"
+                     refid="classpath_jars"/>
+    </target>
+
+    <!-- Loading Testng -->
+
+    <target name="loadTestNG" depends="setClassPath">
+        <echo message="loading testng... "/>
+        <taskdef resource="testngtasks" classpath="${test.classpath}"/>
+        <echo message="loaded OK "/>
+    </target>
+
+    <!-- Deleting directories -->
+
+    <target name="clean">
+        <echo message="deleting existing build directory"/>
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <!-- Deleting ScreensShot directories -->
+
+    <target name="cleanScreenshots">
+        <echo message="deleting existing ScrShot directory"/>
+        <delete dir="${screen.shot.dir}"/>
+        <mkdir dir="${screen.shot.dir}"/>
+    </target>
+
+    <!-- Creating build folder to store compiled classes -->
+
+    <target name="init" depends="clean,setClassPath">
+        <mkdir dir="${build.dir}"/>
+
+    </target>
+
+    <!-- Compiling java files -->
+
+    <target name="compile"
+            depends="clean,cleanScreenshots,init,setClassPath,loadTestNG">
+        <echo message=""/>
+        <echo message="compiling....."/>
+        <javac destdir="${build.dir}"
+               debug="true"
+               srcdir="${src.dir}"
+               includeantruntime="false"
+               classpath="${test.classpath}"/>
+    </target>
+
+    <target name="run" depends="compile">
+        <testng classpath="${test.classpath}:${build.dir}">
+            <xmlfileset dir="${basedir}/${test.input.folder}" includes="${suite}"/>
+        </testng>
+    </target>
+
+    <!-- adding XSLT report target to produce XSLT report -->
+
+    <target name="makexsltreports" depends="run">
+        <move todir="${report.dir}/archive/archive - ${TODAY}"
+              includeEmptyDirs="yes"
+              verbose="true">
+            <fileset dir="${report.dir}/report">
+                <include name="**/*"/>
+            </fileset>
+        </move>
+        <delete dir="${report.dir}/report"/>
+        <mkdir dir="${report.dir}/report"/>
+
+        <echo message="Starting generation of xsl test report... "/>
+        <xslt in="${ng.result}/testng-results.xml"
+              style="resources/testng-results.xsl"
+              out="${report.dir}/report/index.html"
+              classpathref="classpath_jars"
+              processor="SaxonLiaison">
+            <param name="testNgXslt.outputDir" expression="${report.dir}/report"/>
+            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+            <param expression="true" name="testNgXslt.sortTestCaseLinks"/>
+            <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS"
+                   name="testNgXslt.testDetailsFilter"/>
+
+        </xslt>
+        <echo message="Report generated successfully... "/>
+
+        <!-- To be activated for publishing the report in a webserver location -->
+        <!--  <scp
+               port="23"
+               todir="${report.publish.location}"
+               trust="true"
+               sftp="true">
+              <fileset dir="${report.dir}/report"/>
+          </scp> -->
+
+    </target>
+    <target name="openReport" depends="makexsltreports">
+
+        <exec executable="${chrome.browser}" spawn="true">
+            <arg value="${file}"/>
+        </exec>
+
+    </target>
+
+</project>

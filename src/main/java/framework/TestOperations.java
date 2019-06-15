@@ -20,21 +20,6 @@ import java.util.Set;
  */
 public class TestOperations extends InitWebDriver {
 
-    /**
-     * login method with implicit connection. It requires an encoded username
-     * Administration/ Administration administration.
-     */
-
-    public static void login(String username, String password) {
-
-        Util.Log.info("login with user : " + username);
-        try {
-            //login code
-        } catch (Throwable t) {
-            Util.ScreenShot();
-            Assert.fail(Util.Log.error("Could not login"));
-        }
-    }
 
     /**
      * identifies an element by the provided @xPath and clicks it.
@@ -472,19 +457,19 @@ public class TestOperations extends InitWebDriver {
 
         try {
             Robot robot = new Robot();
-            TestOperations.wait(1);
+            wait(1);
 
             robot.keyPress(KeyEvent.VK_CONTROL);
             robot.keyPress(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_CONTROL);
 
-            TestOperations.wait(4);
+            wait(4);
 
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
 
-            TestOperations.wait(2);
+            wait(2);
 
         } catch (AWTException e) {
 
@@ -500,18 +485,18 @@ public class TestOperations extends InitWebDriver {
 
         try {
             Robot robot = new Robot();
-            TestOperations.wait(1);
+            wait(1);
 
             robot.keyPress(KeyEvent.VK_DOWN);
             robot.keyPress(KeyEvent.VK_DOWN);
 
 
-            TestOperations.wait(2);
+            wait(2);
 
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
 
-            TestOperations.wait(4);
+            wait(4);
 
         } catch (AWTException e) {
 
