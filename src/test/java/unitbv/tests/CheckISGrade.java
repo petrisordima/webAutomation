@@ -13,12 +13,13 @@ public class CheckISGrade extends TestOperations {
         goToUrl(Web.PLATFORM_URL);
 
         //  Perform Login
-        login("petrisor.dima@student.unitbv.ro", "VrTzBsDJDwFz54Q");
+        login("username", "password");
 
         //  Check course IS grade is present
         click(Web.HomePage.Profile.PROFILE_PHOTO);
         click(Web.HomePage.Profile.PROFILE_GRADES);
         assertElementPresent(Web.MyGradesPage.IS_COURSE);
+        wait(2);
         click(Web.MyGradesPage.IS_COURSE);
         assertElementPresent(Web.MyGradesPage.ISGrades.COURSE_TOTAL);
         click(Web.HomePage.Profile.PROFILE_PHOTO);

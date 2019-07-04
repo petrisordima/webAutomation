@@ -5,5 +5,4 @@
             <class name="unitbv.tests.CheckWebPages"></class>
         </classes>
     </test>
-
 </suite>

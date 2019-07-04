@@ -3,8 +3,6 @@ package util;
 import framework.TestOperations;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import util.TestParams;
-import util.Util;
 
 public class VerifyPagesFromXls extends TestOperations {
 

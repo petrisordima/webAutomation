@@ -1,6 +1,7 @@
 package framework;
 
 
+import framework.InitWebDriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -12,7 +13,6 @@ import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
 /**

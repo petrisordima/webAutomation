@@ -8,7 +8,7 @@ public class CheckWebPages extends VerifyPagesFromXls {
 
     @Override
     public String sheetName() {
-        return "checkPages";
+        return "pagesData";
     }
 
 }
