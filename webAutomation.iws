@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f975e466-f2bb-49e3-96f7-38af0ab9fd26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/testData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testData.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/TestOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/TestOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/PerformTestFromXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PerformTestFromXls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/VerifyPagesFromXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/VerifyPagesFromXls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckWebPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/CheckWebPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suites/CheckPagesFromXlsFiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webAutomation.iws" beforeDir="false" afterPath="$PROJECT_DIR$/webAutomation.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/entities/Web.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -208,6 +207,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -229,79 +244,6 @@
               <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="unitbv" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="unitbv" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="webAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="unitbv" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +256,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562263526279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562265253058" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -364,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckISGrade.verifyISGradeOnIntranet">
+  <component name="RunManager" selected="TestNG.TestFromXls">
     <configuration name="CheckISGrade.verifyISGradeOnIntranet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webAutomation" />
       <extension name="coverage">
@@ -461,10 +403,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestFromXls" />
         <item itemvalue="TestNG.CheckWebPages" />
         <item itemvalue="TestNG.Meserie" />
         <item itemvalue="TestNG.Meserie.lalala" />
-        <item itemvalue="TestNG.TestFromXls" />
         <item itemvalue="TestNG.CheckISGrade.verifyISGradeOnIntranet" />
       </list>
     </recent_temporary>
@@ -531,6 +473,7 @@
       <workItem from="1560679181025" duration="1289000" />
       <workItem from="1561282166960" duration="1620000" />
       <workItem from="1562262893085" duration="714000" />
+      <workItem from="1562264440514" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1544475428684</created>
@@ -686,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560581682602</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="TestNg">
+      <created>1562264489846</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562264489846</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,13 +672,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96742000" />
+    <option name="totallyTimeSpent" value="97378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.18322147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -780,7 +729,8 @@
     <MESSAGE value="ant buid properties in unitbv.properties" />
     <MESSAGE value="ant buid properties in unitbv.properties suite" />
     <MESSAGE value=" New suites" />
-    <option name="LAST_COMMIT_MESSAGE" value=" New suites" />
+    <MESSAGE value="TestNg" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNg" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1163,13 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testRunner.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1177,10 +1120,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/TestFromXls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/tests/CheckISGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="340">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1189,8 +1139,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/unitbv/entities/Web.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
